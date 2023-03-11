@@ -1,4 +1,4 @@
-import { ArrowForward, ArrowRight, CurrencyRupee, DownloadForOfflineOutlined, FacebookRounded, Favorite, Hd, Instagram, KeyboardArrowRight, LockOpen, WarningAmberOutlined } from "@mui/icons-material"
+import { ArrowForward, CurrencyRupee, DownloadForOfflineOutlined, Favorite, Hd, KeyboardArrowRight, LockOpen, WarningAmberOutlined } from "@mui/icons-material"
 import { useEffect, useRef, useState } from "react"
 import "./primium.css"
 

@@ -2,7 +2,7 @@ import "./topbar.css"
 import logo from '../../assests/logo.jpg'
 import { ArrowDropDown, DensitySmall, Download } from "@mui/icons-material"
 import { ArrowForward, Close, Favorite, KeyboardArrowRight, Rocket } from "@mui/icons-material"
-import { useEffect, useRef, useState } from "react"
+import { useEffect, useRef } from "react"
 import Login from "../../pages/login/Login"
 import { Link } from "react-router-dom"
 

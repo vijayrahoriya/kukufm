@@ -1,5 +1,5 @@
-import { Close, Google, Lock } from "@mui/icons-material";
-import { useRef, useState } from "react";
+import { Close, Lock } from "@mui/icons-material";
+import { useRef } from "react";
 import "./login.css";
 
 function Login() {
