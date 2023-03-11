@@ -1,0 +1,60 @@
+.trending{
+    overflow-x: scroll;
+    height: 330px;
+}
+
+@media(max-width: 1280px){
+    .trending{
+        height: 285px;
+    }
+}
+@media(max-width: 1024px){
+    .trending{
+        height: 260px;
+    }
+}
+
+@media(max-width: 768px){
+    .trending{
+        height: 280px;
+    }
+}
+
+@media(max-width: 550px){
+    .trending{
+        height: 250px;
+    }
+}
+
+.trending img{
+    border-radius: 10px;
+}
+
+.trending::-webkit-scrollbar{
+    width: 10px;
+    display: none;
+}
+
+.trending:hover::-webkit-scrollbar{
+    display: block;
+}
+
+
+.trending .box{
+    width: 15%;
+}
+
+.trending .image{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.trending img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.trending span{
+    font-size: 1.1rem;
+    color: #333;
+}

@@ -1,0 +1,129 @@
+.login{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.2);
+    z-index: 999;
+}
+
+.loginForm{
+    background: #fff;
+    width: 400px;
+    border-radius: 20px;
+    margin: 0 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.login .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.login h3{
+    color: #333;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+.lockIcon{
+    font-size: .8rem !important;
+}
+
+.login .left span{
+    color: rgb(97, 216, 97);
+}
+
+.close{
+    cursor: pointer;
+    color: #888;
+    font-size: 1.7rem;
+}
+
+.inputs{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.inputs select,
+.inputs  input{
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    padding-left: 10px;
+}
+
+.inputs select{
+    flex: 2;
+}
+
+.login hr{
+    background: lightgray;
+}
+
+.inputs input::-webkit-outer-spin-button,
+.inputs input::-webkit-inner-spin-button{
+    display: none;
+}
+
+.inputs input{
+    flex: 10;
+}
+
+
+.login .info2{
+    margin: 0 20px;
+    color: #777;
+    font-size: .9rem;
+}
+
+.info2 span{
+    color: tomato;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.login button{
+    width: 90%;
+    background: tomato;
+    color: #fff;
+    height: 45px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin: 15px auto;
+    border: none;
+    display: block;
+    outline: none;
+    border-radius: 5px;
+}
+
+.or{
+    text-align: center;
+    color: #999;
+    font-weight: 500;
+}
+
+.other{
+    border: 2px solid lightgray;
+    margin: 15px 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    color: #000;
+}

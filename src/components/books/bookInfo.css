@@ -1,0 +1,38 @@
+.bookInfo{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: center;
+    overflow: scroll;
+    height: 175px;
+}
+
+.bookInfo::-webkit-scrollbar{
+    display: none;
+    width: 10px;
+}
+
+.bookInfo:hover::-webkit-scrollbar{
+    display: block;
+    cursor: pointer;
+}
+
+.bookInfo::-webkit-scrollbar-thumb{
+    background: lightgray;
+    border-radius: 50px;
+}
+
+.bookInfo .image{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.bookInfo span{
+    font-size: 1.2rem;
+}
+
+.bookInfo img{
+    width: 100%;
+    height: 100%;
+}

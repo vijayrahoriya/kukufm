@@ -1,0 +1,83 @@
+.bio{
+    overflow-x: scroll;
+    height: 330px;
+}
+
+@media(max-width: 1280px){
+    .bio{
+        height: 280px;
+    }
+}
+
+@media(max-width: 1024px){
+    .bio{
+        height: 255px;
+    }
+}
+
+@media(max-width: 768px){
+    .bio{
+        height: 280px;
+    }
+}
+
+@media(max-width: 550px){
+    .bio{
+        height: 250px;
+    }
+}
+
+.bigBox{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    width: 170%;
+}
+
+.box{
+    position: relative;
+}
+
+.badges{
+    position: absolute;
+    background: rgb(250, 174, 32);
+    padding: 5px 10px;
+    top: 20px;
+    left: -10px;
+    color: #fff;
+    border-radius: 2px 50px 50px 2px;
+}
+
+.bio::-webkit-scrollbar{
+    width: 10px;
+    display: none;
+}
+
+::-webkit-scrollbar-thumb{
+    background: lightgray;
+    border-radius: 50px;
+}
+
+.bio:hover::-webkit-scrollbar{
+    display: block;
+}
+
+.bio .box{
+    width: 15%;
+}
+
+.bio .image{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.bio img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.bio span{
+    font-size: 1.1rem;
+    color: #333;
+}

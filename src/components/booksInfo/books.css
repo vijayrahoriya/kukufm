@@ -1,0 +1,83 @@
+.books{
+    overflow-x: scroll;
+    height: 330px;
+}
+
+@media(max-width: 1280px){
+    .books{
+        height: 280px;
+    }
+}
+
+@media(max-width: 1024px){
+    .books{
+        height: 250px;
+    }
+}
+
+@media(max-width: 768px){
+    .books{
+        height: 280px;
+    }
+}
+
+@media(max-width: 550px){
+    .books{
+        height: 230px;
+    }
+}
+.bigBox{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    width: 170%;
+}
+
+.box{
+    position: relative;
+}
+
+.badges{
+    position: absolute;
+    background: rgb(250, 174, 32);
+    padding: 5px 10px;
+    top: 20px;
+    left: -10px;
+    color: #fff;
+    border-radius: 2px 50px 50px 2px;
+}
+
+.books::-webkit-scrollbar{
+    width: 10px;
+    display: none;
+}
+
+.books::-webkit-scrollbar-thumb{
+    background: lightgray;
+    border-radius: 50px;
+}
+
+.books:hover::-webkit-scrollbar{
+    display: block;
+}
+
+
+.books .box{
+    width: 15%;
+}
+
+.books .image{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.books img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.books span{
+    font-size: 1.1rem;
+    color: #333;
+}

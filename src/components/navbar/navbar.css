@@ -1,0 +1,39 @@
+.navbar{
+    background: rgb(246, 137, 118);
+    color: #fff;
+    padding: 10px 60px;
+    z-index: 11;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style-type: none;
+}
+
+.navbar ul li{
+    cursor: pointer;
+    font-size: 600;
+    font-size: 1.1rem;
+    position: relative;
+}
+
+.navbar .lists{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: #fff;
+    padding: 20px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    display: none;
+    z-index: 111;
+    color: #000;
+}
+
+.navbar .lists span:hover{
+    color: tomato;
+    text-decoration: underline;
+}

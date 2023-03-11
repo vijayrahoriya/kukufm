@@ -1,0 +1,215 @@
+.show{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.show-box{
+    width: 50%;
+}
+
+.show-box .image2 img{
+    display: block;
+    margin: 0 auto;
+    width: 140px;
+    height: 140px;
+    border-radius: 10px;
+}
+
+.show-box .show-info{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.show-info h3{
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 550;
+    font-size: 1.1rem;
+}
+
+.show-info .lang{
+    color: #999;
+    background: rgb(231, 231, 231);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: .8rem;
+}
+
+.listens b{
+    color: #000;
+    margin: 0 5px;
+}
+
+.listens{
+    color: #999;
+}
+
+.show-info p{
+    font-weight: 500;
+    margin-top: 10px;
+    color: #999;
+}
+
+.show-info .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.show-info .rating{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.show-info .rating span{
+    color: #fff;
+    background: rgb(57, 187, 57);
+    padding: 3px 8px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    font-size: .85rem;
+}
+
+.shareIcon{
+    cursor: pointer;
+    color: #333;
+}
+
+.show-info .right .time{
+    font-size: .9rem;
+    color: #9999;
+}
+
+.show .play{
+    background: tomato;
+    color: #fff;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    height: 45px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 550;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    justify-content: center;
+}
+
+.show h4{
+    font-weight: 550;
+    color: #666;
+    margin: 15px 0;
+    font-size: .9rem;
+}
+
+.show p{
+    color: #999;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.aboutShow{
+    display: flex;
+    align-items: center;
+}
+
+.episode,.details{
+    width: 50%;
+    text-align: center;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    border-bottom: 2px solid rgb(201, 197, 197);
+    margin-bottom: 10px;
+}
+
+.active{
+    color: tomato;
+    border-bottom: 2px solid tomato;
+}
+
+.epList li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    padding: 15px 0;
+}
+
+.epList .left{
+    display: flex;
+    gap: 10px;
+}
+
+.epList img{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.epList .content span{
+    color: rgb(186, 183, 183);
+    font-size: .9rem;
+}
+
+.epList .content h3{
+    font-weight: 500;
+    color: #333;
+}
+
+.detailsInfo{
+    margin-top: 20px;
+    height: 60vh;
+}
+
+.detailsInfo.hide{
+    display: none;
+}
+
+.detailsInfo h3{
+    font-size: 1.5rem;
+}
+
+.detailsInfo .field{
+    margin: 20px 0;
+}
+
+.detailsInfo .artist{
+    color: #333;
+    font-weight: 500;
+}
+
+.detailsInfo .artistInfo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.detailsInfo img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+@media(max-width: 1000px){
+    .show-box{
+        width: 70%;
+    }
+}
+
+@media(max-width: 568px){
+    .show-box{
+        width: 95%;
+    }
+}
